@@ -1,0 +1,57 @@
+body {
+  background: linear-gradient(to right, white#57088f, #00ffff);
+}
+.carousel .slide img {
+  height: 100vh;
+  width: 52%;
+}
+.bannerImg {
+  position: relative;
+  /* object-fit: fill; */
+  width: 57%;
+  margin-left: 20em;
+}
+.text {
+  position: absolute;
+  top: 44%;
+  text-align: center;
+
+  width: 60%;
+  margin-left: 266px;
+}
+.paragraph {
+  font-size: 13px;
+  padding-left: 178px;
+  font-weight: 600;
+  margin-top: 23px;
+  width: 57em;
+  background: linear-gradient(
+    to right,
+    rgb(0, 0, 0),
+    rgb(19, 16, 9),
+    #160c0c,
+    #06100a,
+    #363533,
+    #171308
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-family: "Times New Roman", serif;
+}
+.heading {
+  font-size: 33px;
+  font-weight: 600;
+  padding-left: 32px;
+  background: linear-gradient(
+    to right,
+    rgb(20 5 135 / 0%),
+    rgb(193 106 106),
+    rgb(165 165 60),
+    rgb(98 82 82)
+  );
+  border-radius: 23px;
+  width: 19em;
+  margin-left: 119px;
+  font-family: "Courier New", monospace;
+}

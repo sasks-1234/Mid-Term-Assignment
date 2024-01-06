@@ -1,0 +1,24 @@
+.categories-container {
+    display: flex;
+    justify-content: space-around;
+    overflow-x: auto;
+  }
+  
+  .category-item {
+    margin: 10px;
+    padding: 10px;
+    
+  }
+  
+  .category-heading {
+    border-bottom: none;
+    color: rgb(16, 16, 21);
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none!important;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    
+;
+    
+    /* Add any other styles you want here */
+  }

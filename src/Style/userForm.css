@@ -1,0 +1,56 @@
+.div {
+    height: 700px;
+    width: 100%;
+  }
+  
+  .setForm {
+    width: 36%;
+    margin: 0 auto;
+    padding: 37px;
+   background-color: rgb(234, 234, 229);
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px gray;
+    margin-top: 40px;
+    height: fit-content;
+  }
+  .setForm h2 {
+    font-size: 35;
+    margin-left: 120px;
+    margin-bottom: 12px;
+   ;
+  }
+  .setForm div {
+    margin-bottom: 15px;
+  }
+  
+  .setForm label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .setForm input[type="text"],
+  .setForm input[type="email"],
+  .setForm input[type="password"] {
+    width: calc(100% - 36px);
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .setForm .btn {
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    width: 92%;
+    border: none;
+    transition: background-color 0.3s;
+  }
+  
+  .setForm .btn:hover {
+    background-color: #0056b3;
+  }
